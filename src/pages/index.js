@@ -4,13 +4,6 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-
-const IndexPage = () => (
-  <Layout>
-    <Seo title="Home" />
-    <h1>This is a real website for raman prasad.</h1>
-     <h1>I didn't capatlise my name becuase small letters look asthetically more pleasing.</h1>
-     <h>My Links</h>
 <!-- Display the countdown timer in an element -->
 <p id="demo"></p>
 
@@ -44,6 +37,13 @@ var x = setInterval(function() {
   }
 }, 1000);
 </script>
+
+const IndexPage = () => (
+  <Layout>
+    <Seo title="Home" />
+    <h1>This is a real website for raman prasad.</h1>
+     <h1>I didn't capatlise my name becuase small letters look asthetically more pleasing.</h1>
+     <h>My Links</h>
     <p>These are my socials down below.</p>
     <p>I also make music.</p>
     <StaticImage
