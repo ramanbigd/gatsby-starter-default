@@ -26,7 +26,7 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
-      </h1> raman prasad</h1>
+      </h1> raman prasad <h1>
     </div>
   </header>
 )
